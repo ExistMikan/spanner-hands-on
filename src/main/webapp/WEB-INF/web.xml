@@ -45,6 +45,10 @@
     <servlet-name>Storing</servlet-name>
     <servlet-class>handson.StoringServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>Tools-Instance</servlet-name>
+    <servlet-class>handson.tools.InstanceServlet</servlet-class>
+  </servlet>
 
   <servlet-mapping>
     <servlet-name>AccessTest</servlet-name>
@@ -85,6 +89,10 @@
   <servlet-mapping>
     <servlet-name>Storing</servlet-name>
     <url-pattern>/storing</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Tools-Instance</servlet-name>
+    <url-pattern>/tools/instance</url-pattern>
   </servlet-mapping>
 
   <welcome-file-list>
